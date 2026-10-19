@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+venv/
+ENV/
+
+# Heavy Raw Landsat Data (>3.5 GB, exceeds GitHub limits)
+data/raw/
+*.tar.gz
+*.zip
+
+# Intermediate processed arrays (generated on-the-fly)
+data/processed/*.npy
+data/processed/*/*.npy
+data/processed/landsat_2025_false_color.vrt
+
+# Scratch & Temporary files
+scratch/
+tmp/
+temp/
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,134 @@
+{
+  "2015": {
+    "thresholds": {},
+    "candidates": {
+      "Residential Land": {
+        "raw_pixels": 175,
+        "train_blocks": 0,
+        "val_blocks": 0
+      },
+      "Water Body": {
+        "raw_pixels": 223,
+        "train_blocks": 0,
+        "val_blocks": 0
+      },
+      "Industrial Land": {
+        "raw_pixels": 32,
+        "train_blocks": 0,
+        "val_blocks": 0
+      },
+      "Vegetation": {
+        "raw_pixels": 5037,
+        "train_blocks": 2,
+        "val_blocks": 4
+      },
+      "Paddy": {
+        "raw_pixels": 249,
+        "train_blocks": 0,
+        "val_blocks": 0
+      }
+    },
+    "training": {
+      "Residential Land": 0,
+      "Water Body": 0,
+      "Industrial Land": 0,
+      "Vegetation": 2,
+      "Paddy": 0
+    },
+    "validation": {
+      "Residential Land": 0,
+      "Water Body": 0,
+      "Industrial Land": 0,
+      "Vegetation": 4,
+      "Paddy": 0
+    }
+  },
+  "2020": {
+    "thresholds": {},
+    "candidates": {
+      "Residential Land": {
+        "raw_pixels": 7,
+        "train_blocks": 0,
+        "val_blocks": 0
+      },
+      "Water Body": {
+        "raw_pixels": 820,
+        "train_blocks": 0,
+        "val_blocks": 1
+      },
+      "Industrial Land": {
+        "raw_pixels": 0,
+        "train_blocks": 0,
+        "val_blocks": 0
+      },
+      "Vegetation": {
+        "raw_pixels": 15844,
+        "train_blocks": 10,
+        "val_blocks": 12
+      },
+      "Paddy": {
+        "raw_pixels": 2,
+        "train_blocks": 0,
+        "val_blocks": 0
+      }
+    },
+    "training": {
+      "Residential Land": 0,
+      "Water Body": 0,
+      "Industrial Land": 0,
+      "Vegetation": 10,
+      "Paddy": 0
+    },
+    "validation": {
+      "Residential Land": 0,
+      "Water Body": 1,
+      "Industrial Land": 0,
+      "Vegetation": 12,
+      "Paddy": 0
+    }
+  },
+  "2025": {
+    "thresholds": {},
+    "candidates": {
+      "Residential Land": {
+        "raw_pixels": 104,
+        "train_blocks": 0,
+        "val_blocks": 0
+      },
+      "Water Body": {
+        "raw_pixels": 122,
+        "train_blocks": 0,
+        "val_blocks": 0
+      },
+      "Industrial Land": {
+        "raw_pixels": 0,
+        "train_blocks": 0,
+        "val_blocks": 0
+      },
+      "Vegetation": {
+        "raw_pixels": 1816,
+        "train_blocks": 2,
+        "val_blocks": 0
+      },
+      "Paddy": {
+        "raw_pixels": 28,
+        "train_blocks": 0,
+        "val_blocks": 0
+      }
+    },
+    "training": {
+      "Residential Land": 0,
+      "Water Body": 0,
+      "Industrial Land": 0,
+      "Vegetation": 2,
+      "Paddy": 0
+    },
+    "validation": {
+      "Residential Land": 0,
+      "Water Body": 0,
+      "Industrial Land": 0,
+      "Vegetation": 0,
+      "Paddy": 0
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "timestamp": "2026-09-29T10:34:38.752863",
+  "method": "spectral_threshold_auto",
+  "confidence_label": "candidate_unverified",
+  "parameters": {
+    "sample_window_px": 5,
+    "min_purity": 0.7,
+    "erosion_radius_px": 2,
+    "train_row_fraction": 0.65,
+    "min_sep_pixels": 6,
+    "max_samples_per_class": 60
+  },
+  "thresholds_by_year": {
+    "2015": {
+      "water": {
+        "MNDWI_min": 0.1,
+        "NDVI_max": 0.12
+      },
+      "veg": {
+        "NDVI_min": 0.45,
+        "NDBI_max": -0.08,
+        "MNDWI_max": 0.1
+      },
+      "resid": {
+        "NDBI_min": -0.02,
+        "NDVI_max": 0.25,
+        "MNDWI_max": -0.05
+      },
+      "indust": {
+        "NDBI_min": 0.03,
+        "NDVI_max": 0.18,
+        "MNDWI_max": -0.1
+      },
+      "paddy": {
+        "NDVI_min": 0.08,
+        "NDVI_max": 0.45,
+        "MNDWI_min": -0.2,
+        "MNDWI_max": 0.3,
+        "note": "May transplanting: sparse young rice"
+      }
+    },
+    "2020": {
+      "water": {
+        "MNDWI_min": 0.1,
+        "NDVI_max": 0.12
+      },
+      "veg": {
+        "NDVI_min": 0.45,
+        "NDBI_max": -0.08,
+        "MNDWI_max": 0.1
+      },
+      "resid": {
+        "NDBI_min": -0.02,
+        "NDVI_max": 0.25,
+        "MNDWI_max": -0.05
+      },
+      "indust": {
+        "NDBI_min": 0.03,
+        "NDVI_max": 0.18,
+        "MNDWI_max": -0.1
+      },
+      "paddy": {
+        "NDVI_min": 0.2,
+        "NDVI_max": 0.6,
+        "MNDWI_min": -0.25,
+        "MNDWI_max": 0.2,
+        "NDBI_min": -0.35,
+        "NDBI_max": 0.0,
+        "note": "July peak growth: dense rice, overlap with Veg"
+      }
+    },
+    "2025": {
+      "water": {
+        "MNDWI_min": 0.1,
+        "NDVI_max": 0.12
+      },
+      "veg": {
+        "NDVI_min": 0.45,
+        "NDBI_max": -0.08,
+        "MNDWI_max": 0.1
+      },
+      "resid": {
+        "NDBI_min": -0.02,
+        "NDVI_max": 0.25,
+        "MNDWI_max": -0.05
+      },
+      "indust": {
+        "NDBI_min": 0.03,
+        "NDVI_max": 0.18,
+        "MNDWI_max": -0.1
+      },
+      "paddy": {
+        "NDVI_min": 0.1,
+        "NDVI_max": 0.4,
+        "MNDWI_min": -0.35,
+        "MNDWI_max": 0.1,
+        "NDBI_min": -0.15,
+        "NDBI_max": 0.12,
+        "note": "March harvest: yellowish/bare, overlap with built-up"
+      }
+    }
+  },
+  "statistics": {
+    "2015": {
+      "Residential Land": {
+        "train": 3,
+        "val": 0
+      },
+      "Water Body": {
+        "train": 1,
+        "val": 2
+      },
+      "Industrial Land": {
+        "train": 0,
+        "val": 0
+      },
+      "Vegetation": {
+        "train": 49,
+        "val": 31
+      },
+      "Paddy": {
+        "train": 1,
+        "val": 2
+      }
+    },
+    "2020": {
+      "Residential Land": {
+        "train": 0,
+        "val": 0
+      },
+      "Water Body": {
+        "train": 1,
+        "val": 6
+      },
+      "Industrial Land": {
+        "train": 0,
+        "val": 0
+      },
+      "Vegetation": {
+        "train": 60,
+        "val": 60
+      },
+      "Paddy": {
+        "train": 0,
+        "val": 0
+      }
+    },
+    "2025": {
+      "Residential Land": {
+        "train": 6,
+        "val": 1
+      },
+      "Water Body": {
+        "train": 1,
+        "val": 1
+      },
+      "Industrial Land": {
+        "train": 0,
+        "val": 0
+      },
+      "Vegetation": {
+        "train": 22,
+        "val": 18
+      },
+      "Paddy": {
+        "train": 4,
+        "val": 0
+      }
+    }
+  }
+}

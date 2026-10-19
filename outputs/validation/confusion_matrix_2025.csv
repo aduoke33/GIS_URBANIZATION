@@ -1,0 +1,8 @@
+Reference_Class,Residential,Water,Industrial,Vegetation,Paddy,Row_Total,Producers_Accuracy
+Residential Land,6,0,6,0,0,12,50.00%
+Water Body,0,8,0,0,4,12,66.67%
+Industrial Land,4,0,8,0,0,12,66.67%
+Vegetation,1,0,2,3,6,12,25.00%
+Paddy,1,0,1,0,10,12,83.33%
+Column_Total,12,8,17,3,20,60,OA=58.33%
+Users_Accuracy,50.00%,100.00%,47.06%,100.00%,50.00%,Macro_UA=69.41%,Kappa=0.4792

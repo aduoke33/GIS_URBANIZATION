@@ -1,0 +1,14 @@
+category,metric,unit,2015,2020,2025,change_2015_2020,change_2020_2025,change_2015_2025
+Land Cover Class,Residential Land,ha,5792.04,3147.57,3511.08,-2644.47,363.51,-2280.96
+Land Cover Class,Water Body,ha,1370.88,921.69,438.84,-449.19,-482.85,-932.04
+Land Cover Class,Industrial Land,ha,1434.69,2642.04,5303.7,1207.35,2661.66,3869.01
+Land Cover Class,Vegetation,ha,2049.03,2868.21,1323.54,819.18,-1544.67,-725.49
+Land Cover Class,Paddy,ha,4345.56,4415.04,4562.19,69.48,147.15,216.63
+Land Cover Share,Residential Land (%),%,38.63,22.49,23.19,-16.14,0.7,-15.44
+Land Cover Share,Water Body (%),%,9.14,6.59,2.9,-2.55,-3.69,-6.24
+Land Cover Share,Industrial Land (%),%,9.57,18.88,35.03,9.31,16.15,25.46
+Land Cover Share,Vegetation (%),%,13.67,20.5,8.74,6.83,-11.76,-4.93
+Land Cover Share,Paddy (%),%,28.99,31.55,30.13,2.56,-1.42,1.14
+Built-up Analysis,Built-up Area (Residential + Industrial),ha,7226.73,5789.61,8814.78,-1437.12,3025.17,1588.05
+Built-up Analysis,Built-up Share of Total Classified,%,48.2,41.37,58.22,-6.83,16.85,10.02
+Total Domain,Total Valid Classified Area,ha,14992.2,13994.55,15139.35,-997.65,1144.8,147.15

@@ -1,0 +1,68 @@
+id,year,x,y,grid_row,grid_col,reference_class,reference_class_name,predicted_class,predicted_class_name,match,status,confidence,reference_source,notes
+1,2015,567100.0,2353757.14,243,198,1,Residential Land,3,Industrial Land,0,evaluated,medium,optical_index_settlement_mix,needs_manual_review (mixed residential village texture)
+2,2015,561250.0,2353757.14,243,3,1,Residential Land,1,Residential Land,1,evaluated,medium,optical_index_settlement_mix,needs_manual_review (mixed residential village texture)
+3,2015,563200.0,2357657.14,113,68,1,Residential Land,1,Residential Land,1,evaluated,medium,optical_index_settlement_mix,needs_manual_review (mixed residential village texture)
+4,2015,569700.0,2350507.14,351,285,1,Residential Land,3,Industrial Land,0,evaluated,medium,optical_index_settlement_mix,needs_manual_review (mixed residential village texture)
+5,2015,567750.0,2357657.14,113,220,1,Residential Land,1,Residential Land,1,evaluated,medium,optical_index_settlement_mix,needs_manual_review (mixed residential village texture)
+6,2015,569700.0,2355057.14,200,285,1,Residential Land,1,Residential Land,1,evaluated,medium,optical_index_settlement_mix,needs_manual_review (mixed residential village texture)
+7,2015,563850.0,2355707.14,178,90,1,Residential Land,3,Industrial Land,0,evaluated,medium,optical_index_settlement_mix,needs_manual_review (mixed residential village texture)
+8,2015,565150.0,2353107.14,265,133,1,Residential Land,2,Water Body,0,evaluated,medium,optical_index_settlement_mix,needs_manual_review (mixed residential village texture)
+9,2015,563200.0,2353757.14,243,68,1,Residential Land,1,Residential Land,1,evaluated,medium,optical_index_settlement_mix,needs_manual_review (mixed residential village texture)
+10,2015,567100.0,2355707.14,178,198,1,Residential Land,3,Industrial Land,0,evaluated,medium,optical_index_settlement_mix,needs_manual_review (mixed residential village texture)
+11,2015,569700.0,2353107.14,265,285,1,Residential Land,3,Industrial Land,0,evaluated,medium,optical_index_settlement_mix,needs_manual_review (mixed residential village texture)
+12,2015,565150.0,2357007.14,135,133,1,Residential Land,3,Industrial Land,0,evaluated,medium,optical_index_settlement_mix,needs_manual_review (mixed residential village texture)
+13,2015,561250.0,2356357.14,156,3,2,Water Body,2,Water Body,1,evaluated,high,optical_index_mndwi_nir,Open water body with strong MNDWI absorption
+14,2015,562550.0,2353107.14,265,46,2,Water Body,2,Water Body,1,evaluated,high,optical_index_mndwi_nir,Open water body with strong MNDWI absorption
+15,2015,562550.0,2355057.14,200,46,2,Water Body,2,Water Body,1,evaluated,high,optical_index_mndwi_nir,Open water body with strong MNDWI absorption
+16,2015,563200.0,2349207.14,395,68,2,Water Body,2,Water Body,1,evaluated,high,optical_index_mndwi_nir,Open water body with strong MNDWI absorption
+17,2015,563200.0,2349857.14,373,68,2,Water Body,2,Water Body,1,evaluated,high,optical_index_mndwi_nir,Open water body with strong MNDWI absorption
+18,2015,567100.0,2359607.14,48,198,2,Water Body,2,Water Body,1,evaluated,high,optical_index_mndwi_nir,Open water body with strong MNDWI absorption
+19,2015,565800.0,2352457.14,286,155,2,Water Body,2,Water Body,1,evaluated,medium,optical_index_mndwi_nir,needs_manual_review (water body / wetland candidate)
+20,2015,565150.0,2360907.14,5,133,2,Water Body,2,Water Body,1,evaluated,medium,optical_index_mndwi_nir,needs_manual_review (water body / wetland candidate)
+21,2015,561250.0,2349207.14,395,3,2,Water Body,2,Water Body,1,evaluated,medium,optical_index_mndwi_nir,needs_manual_review (water body / wetland candidate)
+22,2015,561250.0,2355057.14,200,3,2,Water Body,2,Water Body,1,evaluated,medium,optical_index_mndwi_nir,needs_manual_review (water body / wetland candidate)
+23,2015,571000.0,2351807.14,308,328,2,Water Body,2,Water Body,1,evaluated,medium,optical_index_mndwi_nir,needs_manual_review (water body / wetland candidate)
+24,2015,569050.0,2358307.14,91,263,2,Water Body,2,Water Body,1,evaluated,medium,optical_index_mndwi_nir,needs_manual_review (water body / wetland candidate)
+25,2015,561250.0,2357657.14,113,3,3,Industrial Land,1,Residential Land,0,evaluated,high,optical_index_ndbi_swir,Heavy impervious surface / industrial roof
+26,2015,563200.0,2353107.14,265,68,3,Industrial Land,1,Residential Land,0,evaluated,high,optical_index_ndbi_swir,Heavy impervious surface / industrial roof
+27,2015,564500.0,2357007.14,135,111,3,Industrial Land,1,Residential Land,0,evaluated,high,optical_index_ndbi_swir,Heavy impervious surface / industrial roof
+28,2015,565150.0,2357657.14,113,133,3,Industrial Land,3,Industrial Land,1,evaluated,high,optical_index_ndbi_swir,Heavy impervious surface / industrial roof
+29,2015,566450.0,2355057.14,200,176,3,Industrial Land,3,Industrial Land,1,evaluated,high,optical_index_ndbi_swir,Heavy impervious surface / industrial roof
+30,2015,566450.0,2360257.14,26,176,3,Industrial Land,3,Industrial Land,1,evaluated,high,optical_index_ndbi_swir,Heavy impervious surface / industrial roof
+31,2015,569700.0,2353757.14,243,285,3,Industrial Land,3,Industrial Land,1,evaluated,high,optical_index_ndbi_swir,Heavy impervious surface / industrial roof
+32,2015,570350.0,2358957.14,70,306,3,Industrial Land,3,Industrial Land,1,evaluated,high,optical_index_ndbi_swir,Heavy impervious surface / industrial roof
+33,2015,570350.0,2359607.14,48,306,3,Industrial Land,3,Industrial Land,1,evaluated,high,optical_index_ndbi_swir,Heavy impervious surface / industrial roof
+34,2015,565800.0,2355707.14,178,155,3,Industrial Land,3,Industrial Land,1,evaluated,medium,optical_index_ndbi_swir,needs_manual_review (industrial zone / impervious candidate)
+35,2015,570350.0,2347257.14,460,306,3,Industrial Land,1,Residential Land,0,evaluated,medium,optical_index_ndbi_swir,needs_manual_review (industrial zone / impervious candidate)
+36,2015,563850.0,2348557.14,416,90,3,Industrial Land,1,Residential Land,0,evaluated,medium,optical_index_ndbi_swir,needs_manual_review (industrial zone / impervious candidate)
+37,2015,565800.0,2355057.14,200,155,4,Vegetation,1,Residential Land,0,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+38,2015,561250.0,2347907.14,438,3,4,Vegetation,1,Residential Land,0,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+39,2015,570350.0,2347907.14,438,306,4,Vegetation,4,Vegetation,1,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+40,2015,561250.0,2360907.14,5,3,4,Vegetation,4,Vegetation,1,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+41,2015,567750.0,2360907.14,5,220,4,Vegetation,4,Vegetation,1,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+42,2015,570350.0,2353757.14,243,306,4,Vegetation,4,Vegetation,1,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+43,2015,561250.0,2355707.14,178,3,4,Vegetation,4,Vegetation,1,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+44,2015,565800.0,2347257.14,460,155,4,Vegetation,1,Residential Land,0,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+45,2015,564500.0,2358957.14,70,111,4,Vegetation,4,Vegetation,1,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+46,2015,567750.0,2357007.14,135,220,4,Vegetation,4,Vegetation,1,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+47,2015,571000.0,2351157.14,330,328,4,Vegetation,4,Vegetation,1,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+48,2015,567100.0,2349207.14,395,198,4,Vegetation,1,Residential Land,0,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+49,2015,565150.0,2351807.14,308,133,5,Paddy,2,Water Body,0,evaluated,medium,optical_phenology_paddy,"needs_manual_review (agricultural paddy field, May phenology)"
+50,2015,561900.0,2360257.14,26,25,5,Paddy,5,Paddy,1,evaluated,medium,optical_phenology_paddy,"needs_manual_review (agricultural paddy field, May phenology)"
+51,2015,571000.0,2349207.14,395,328,5,Paddy,2,Water Body,0,evaluated,medium,optical_phenology_paddy,"needs_manual_review (agricultural paddy field, May phenology)"
+52,2015,561250.0,2347257.14,460,3,5,Paddy,5,Paddy,1,evaluated,medium,optical_phenology_paddy,"needs_manual_review (agricultural paddy field, May phenology)"
+53,2015,569050.0,2355707.14,178,263,5,Paddy,5,Paddy,1,evaluated,medium,optical_phenology_paddy,"needs_manual_review (agricultural paddy field, May phenology)"
+54,2015,561250.0,2354407.14,221,3,5,Paddy,5,Paddy,1,evaluated,medium,optical_phenology_paddy,"needs_manual_review (agricultural paddy field, May phenology)"
+55,2015,566450.0,2347907.14,438,176,5,Paddy,2,Water Body,0,evaluated,medium,optical_phenology_paddy,"needs_manual_review (agricultural paddy field, May phenology)"
+56,2015,565150.0,2355057.14,200,133,5,Paddy,5,Paddy,1,evaluated,medium,optical_phenology_paddy,"needs_manual_review (agricultural paddy field, May phenology)"
+57,2015,569050.0,2352457.14,286,263,5,Paddy,5,Paddy,1,evaluated,medium,optical_phenology_paddy,"needs_manual_review (agricultural paddy field, May phenology)"
+58,2015,568400.0,2349857.14,373,241,5,Paddy,5,Paddy,1,evaluated,medium,optical_phenology_paddy,"needs_manual_review (agricultural paddy field, May phenology)"
+59,2015,562550.0,2349207.14,395,46,5,Paddy,5,Paddy,1,evaluated,medium,optical_phenology_paddy,"needs_manual_review (agricultural paddy field, May phenology)"
+60,2015,562550.0,2352457.14,286,46,5,Paddy,5,Paddy,1,evaluated,medium,optical_phenology_paddy,"needs_manual_review (agricultural paddy field, May phenology)"
+61,2015,565800.0,2353757.14,243,155,,NULL,3,Industrial Land,0,excluded_null_reference,low,,needs_manual_review (ambiguous spectral signature)
+62,2015,571000.0,2360907.14,5,328,,NULL,1,Residential Land,0,excluded_null_reference,low,,needs_manual_review (ambiguous spectral signature)
+63,2015,561250.0,2360257.14,26,3,,NULL,4,Vegetation,0,excluded_null_reference,low,,needs_manual_review (ambiguous spectral signature)
+64,2015,571000.0,2347907.14,438,328,,NULL,1,Residential Land,0,excluded_null_reference,low,,needs_manual_review (ambiguous spectral signature)
+65,2015,561900.0,2347257.14,460,25,,NULL,3,Industrial Land,0,excluded_null_reference,low,,needs_manual_review (ambiguous spectral signature)
+66,2015,571000.0,2354407.14,221,328,,NULL,1,Residential Land,0,excluded_null_reference,low,,needs_manual_review (ambiguous spectral signature)
+67,2015,565800.0,2358957.14,70,155,,NULL,1,Residential Land,0,excluded_null_reference,low,,needs_manual_review (ambiguous spectral signature)

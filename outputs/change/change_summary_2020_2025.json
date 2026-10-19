@@ -1,0 +1,216 @@
+{
+  "period": "2020_2025",
+  "year_start": "2020",
+  "year_end": "2025",
+  "total_classified_pixels": 155492,
+  "total_classified_ha": 13994.28,
+  "changed_pixels": 75695,
+  "changed_ha": 6812.55,
+  "unchanged_pixels": 79797,
+  "change_rate_pct": 48.68,
+  "buildup_gain_ha": 2715.57,
+  "buildup_loss_ha": 414.63,
+  "net_buildup_change_ha": 2300.94,
+  "transitions": {
+    "1_to_1": {
+      "from_class": 1,
+      "from_name": "Residential Land",
+      "to_class": 1,
+      "to_name": "Residential Land",
+      "pixels": 20557,
+      "area_ha": 1850.13
+    },
+    "1_to_2": {
+      "from_class": 1,
+      "from_name": "Residential Land",
+      "to_class": 2,
+      "to_name": "Water Body",
+      "pixels": 1,
+      "area_ha": 0.09
+    },
+    "1_to_3": {
+      "from_class": 1,
+      "from_name": "Residential Land",
+      "to_class": 3,
+      "to_name": "Industrial Land",
+      "pixels": 12604,
+      "area_ha": 1134.36
+    },
+    "1_to_4": {
+      "from_class": 1,
+      "from_name": "Residential Land",
+      "to_class": 4,
+      "to_name": "Vegetation",
+      "pixels": 366,
+      "area_ha": 32.94
+    },
+    "1_to_5": {
+      "from_class": 1,
+      "from_name": "Residential Land",
+      "to_class": 5,
+      "to_name": "Paddy",
+      "pixels": 1445,
+      "area_ha": 130.05
+    },
+    "2_to_1": {
+      "from_class": 2,
+      "from_name": "Water Body",
+      "to_class": 1,
+      "to_name": "Residential Land",
+      "pixels": 463,
+      "area_ha": 41.67
+    },
+    "2_to_2": {
+      "from_class": 2,
+      "from_name": "Water Body",
+      "to_class": 2,
+      "to_name": "Water Body",
+      "pixels": 2946,
+      "area_ha": 265.14
+    },
+    "2_to_3": {
+      "from_class": 2,
+      "from_name": "Water Body",
+      "to_class": 3,
+      "to_name": "Industrial Land",
+      "pixels": 650,
+      "area_ha": 58.5
+    },
+    "2_to_4": {
+      "from_class": 2,
+      "from_name": "Water Body",
+      "to_class": 4,
+      "to_name": "Vegetation",
+      "pixels": 643,
+      "area_ha": 57.87
+    },
+    "2_to_5": {
+      "from_class": 2,
+      "from_name": "Water Body",
+      "to_class": 5,
+      "to_name": "Paddy",
+      "pixels": 5539,
+      "area_ha": 498.51
+    },
+    "3_to_1": {
+      "from_class": 3,
+      "from_name": "Industrial Land",
+      "to_class": 1,
+      "to_name": "Residential Land",
+      "pixels": 5742,
+      "area_ha": 516.78
+    },
+    "3_to_2": {
+      "from_class": 3,
+      "from_name": "Industrial Land",
+      "to_class": 2,
+      "to_name": "Water Body",
+      "pixels": 17,
+      "area_ha": 1.53
+    },
+    "3_to_3": {
+      "from_class": 3,
+      "from_name": "Industrial Land",
+      "to_class": 3,
+      "to_name": "Industrial Land",
+      "pixels": 20819,
+      "area_ha": 1873.71
+    },
+    "3_to_4": {
+      "from_class": 3,
+      "from_name": "Industrial Land",
+      "to_class": 4,
+      "to_name": "Vegetation",
+      "pixels": 1140,
+      "area_ha": 102.6
+    },
+    "3_to_5": {
+      "from_class": 3,
+      "from_name": "Industrial Land",
+      "to_class": 5,
+      "to_name": "Paddy",
+      "pixels": 1638,
+      "area_ha": 147.42
+    },
+    "4_to_1": {
+      "from_class": 4,
+      "from_name": "Vegetation",
+      "to_class": 1,
+      "to_name": "Residential Land",
+      "pixels": 3667,
+      "area_ha": 330.03
+    },
+    "4_to_2": {
+      "from_class": 4,
+      "from_name": "Vegetation",
+      "to_class": 2,
+      "to_name": "Water Body",
+      "pixels": 1528,
+      "area_ha": 137.52
+    },
+    "4_to_3": {
+      "from_class": 4,
+      "from_name": "Vegetation",
+      "to_class": 3,
+      "to_name": "Industrial Land",
+      "pixels": 9338,
+      "area_ha": 840.42
+    },
+    "4_to_4": {
+      "from_class": 4,
+      "from_name": "Vegetation",
+      "to_class": 4,
+      "to_name": "Vegetation",
+      "pixels": 6830,
+      "area_ha": 614.7
+    },
+    "4_to_5": {
+      "from_class": 4,
+      "from_name": "Vegetation",
+      "to_class": 5,
+      "to_name": "Paddy",
+      "pixels": 10506,
+      "area_ha": 945.54
+    },
+    "5_to_1": {
+      "from_class": 5,
+      "from_name": "Paddy",
+      "to_class": 1,
+      "to_name": "Residential Land",
+      "pixels": 6604,
+      "area_ha": 594.36
+    },
+    "5_to_2": {
+      "from_class": 5,
+      "from_name": "Paddy",
+      "to_class": 2,
+      "to_name": "Water Body",
+      "pixels": 220,
+      "area_ha": 19.8
+    },
+    "5_to_3": {
+      "from_class": 5,
+      "from_name": "Paddy",
+      "to_class": 3,
+      "to_name": "Industrial Land",
+      "pixels": 9451,
+      "area_ha": 850.59
+    },
+    "5_to_4": {
+      "from_class": 5,
+      "from_name": "Paddy",
+      "to_class": 4,
+      "to_name": "Vegetation",
+      "pixels": 4133,
+      "area_ha": 371.97
+    },
+    "5_to_5": {
+      "from_class": 5,
+      "from_name": "Paddy",
+      "to_class": 5,
+      "to_name": "Paddy",
+      "pixels": 28645,
+      "area_ha": 2578.05
+    }
+  }
+}

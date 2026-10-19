@@ -1,0 +1,68 @@
+id,year,x,y,grid_row,grid_col,reference_class,reference_class_name,predicted_class,predicted_class_name,match,status,confidence,reference_source,notes
+1,2020,566450.0,2354871.43,206,176,1,Residential Land,1,Residential Land,1,evaluated,medium,optical_index_settlement_mix,needs_manual_review (summer residential village texture)
+2,2020,563200.0,2347071.43,466,68,1,Residential Land,1,Residential Land,1,evaluated,medium,optical_index_settlement_mix,needs_manual_review (summer residential village texture)
+3,2020,570350.0,2349021.43,401,306,1,Residential Land,1,Residential Land,1,evaluated,medium,optical_index_settlement_mix,needs_manual_review (summer residential village texture)
+4,2020,563200.0,2360071.43,32,68,1,Residential Land,3,Industrial Land,0,evaluated,medium,optical_index_settlement_mix,needs_manual_review (summer residential village texture)
+5,2020,570350.0,2358771.43,76,306,1,Residential Land,3,Industrial Land,0,evaluated,medium,optical_index_settlement_mix,needs_manual_review (summer residential village texture)
+6,2020,561250.0,2351621.43,314,3,1,Residential Land,3,Industrial Land,0,evaluated,medium,optical_index_settlement_mix,needs_manual_review (summer residential village texture)
+7,2020,561250.0,2356821.43,141,3,1,Residential Land,1,Residential Land,1,evaluated,medium,optical_index_settlement_mix,needs_manual_review (summer residential village texture)
+8,2020,568400.0,2351621.43,314,241,1,Residential Land,3,Industrial Land,0,evaluated,medium,optical_index_settlement_mix,needs_manual_review (summer residential village texture)
+9,2020,564500.0,2357471.43,119,111,1,Residential Land,1,Residential Land,1,evaluated,medium,optical_index_settlement_mix,needs_manual_review (summer residential village texture)
+10,2020,567750.0,2347721.43,444,220,1,Residential Land,1,Residential Land,1,evaluated,medium,optical_index_settlement_mix,needs_manual_review (summer residential village texture)
+11,2020,567750.0,2357471.43,119,220,1,Residential Land,3,Industrial Land,0,evaluated,medium,optical_index_settlement_mix,needs_manual_review (summer residential village texture)
+12,2020,570350.0,2356171.43,162,306,1,Residential Land,3,Industrial Land,0,evaluated,medium,optical_index_settlement_mix,needs_manual_review (summer residential village texture)
+13,2020,563200.0,2351621.43,314,68,2,Water Body,2,Water Body,1,evaluated,high,optical_index_mndwi_nir,Open water body with strong MNDWI absorption
+14,2020,570350.0,2350971.43,336,306,2,Water Body,2,Water Body,1,evaluated,high,optical_index_mndwi_nir,Open water body with strong MNDWI absorption
+15,2020,567100.0,2348371.43,422,198,2,Water Body,2,Water Body,1,evaluated,high,optical_index_mndwi_nir,Open water body with strong MNDWI absorption
+16,2020,569050.0,2354871.43,206,263,2,Water Body,2,Water Body,1,evaluated,high,optical_index_mndwi_nir,Open water body with strong MNDWI absorption
+17,2020,562550.0,2348371.43,422,46,2,Water Body,2,Water Body,1,evaluated,high,optical_index_mndwi_nir,Open water body with strong MNDWI absorption
+18,2020,562550.0,2354871.43,206,46,2,Water Body,2,Water Body,1,evaluated,high,optical_index_mndwi_nir,Open water body with strong MNDWI absorption
+19,2020,565800.0,2352271.43,292,155,2,Water Body,2,Water Body,1,evaluated,high,optical_index_mndwi_nir,Open water body with strong MNDWI absorption
+20,2020,568400.0,2350321.43,357,241,2,Water Body,2,Water Body,1,evaluated,high,optical_index_mndwi_nir,Open water body with strong MNDWI absorption
+21,2020,569050.0,2352921.43,271,263,2,Water Body,2,Water Body,1,evaluated,high,optical_index_mndwi_nir,Open water body with strong MNDWI absorption
+22,2020,561250.0,2349021.43,401,3,2,Water Body,2,Water Body,1,evaluated,high,optical_index_mndwi_nir,Open water body with strong MNDWI absorption
+23,2020,561250.0,2354221.43,227,3,2,Water Body,2,Water Body,1,evaluated,high,optical_index_mndwi_nir,Open water body with strong MNDWI absorption
+24,2020,562550.0,2350321.43,357,46,2,Water Body,4,Vegetation,0,evaluated,high,optical_index_mndwi_nir,Open water body with strong MNDWI absorption
+25,2020,562550.0,2355521.43,184,46,3,Industrial Land,3,Industrial Land,1,evaluated,high,optical_index_ndbi_swir,Heavy impervious surface / industrial roof
+26,2020,568400.0,2353571.43,249,241,3,Industrial Land,3,Industrial Land,1,evaluated,high,optical_index_ndbi_swir,Heavy impervious surface / industrial roof
+27,2020,561250.0,2352921.43,271,3,3,Industrial Land,1,Residential Land,0,evaluated,medium,optical_index_ndbi_swir,needs_manual_review (industrial zone / impervious candidate)
+28,2020,561900.0,2356171.43,162,25,3,Industrial Land,1,Residential Land,0,evaluated,medium,optical_index_ndbi_swir,needs_manual_review (industrial zone / impervious candidate)
+29,2020,563850.0,2357471.43,119,90,3,Industrial Land,1,Residential Land,0,evaluated,medium,optical_index_ndbi_swir,needs_manual_review (industrial zone / impervious candidate)
+30,2020,564500.0,2353571.43,249,111,3,Industrial Land,3,Industrial Land,1,evaluated,medium,optical_index_ndbi_swir,needs_manual_review (industrial zone / impervious candidate)
+31,2020,565150.0,2358121.43,97,133,3,Industrial Land,1,Residential Land,0,evaluated,medium,optical_index_ndbi_swir,needs_manual_review (industrial zone / impervious candidate)
+32,2020,566450.0,2355521.43,184,176,3,Industrial Land,3,Industrial Land,1,evaluated,medium,optical_index_ndbi_swir,needs_manual_review (industrial zone / impervious candidate)
+33,2020,567100.0,2360721.43,11,198,3,Industrial Land,3,Industrial Land,1,evaluated,medium,optical_index_ndbi_swir,needs_manual_review (industrial zone / impervious candidate)
+34,2020,569700.0,2353571.43,249,285,3,Industrial Land,3,Industrial Land,1,evaluated,medium,optical_index_ndbi_swir,needs_manual_review (industrial zone / impervious candidate)
+35,2020,566450.0,2354221.43,227,176,4,Vegetation,3,Industrial Land,0,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+36,2020,561900.0,2347071.43,466,25,4,Vegetation,5,Paddy,0,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+37,2020,561250.0,2360721.43,11,3,4,Vegetation,5,Paddy,0,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+38,2020,571000.0,2360721.43,11,328,4,Vegetation,5,Paddy,0,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+39,2020,569700.0,2347721.43,444,285,4,Vegetation,4,Vegetation,1,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+40,2020,561250.0,2354871.43,206,3,4,Vegetation,5,Paddy,0,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+41,2020,565800.0,2359421.43,54,155,4,Vegetation,3,Industrial Land,0,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+42,2020,571000.0,2353571.43,249,328,4,Vegetation,5,Paddy,0,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+43,2020,565800.0,2349671.43,379,155,4,Vegetation,5,Paddy,0,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+44,2020,561250.0,2350971.43,336,3,4,Vegetation,5,Paddy,0,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+45,2020,569700.0,2357471.43,119,285,4,Vegetation,4,Vegetation,1,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+46,2020,568400.0,2350971.43,336,241,4,Vegetation,4,Vegetation,1,evaluated,high,optical_index_ndvi_red_edge,Dense canopy / forest vegetation (NDVI > 0.65)
+47,2020,565800.0,2351621.43,314,155,5,Paddy,4,Vegetation,0,evaluated,medium,optical_phenology_paddy,"needs_manual_review (summer paddy field, July phenology)"
+48,2020,566450.0,2360071.43,32,176,5,Paddy,5,Paddy,1,evaluated,medium,optical_phenology_paddy,"needs_manual_review (summer paddy field, July phenology)"
+49,2020,571000.0,2347721.43,444,328,5,Paddy,2,Water Body,0,evaluated,medium,optical_phenology_paddy,"needs_manual_review (summer paddy field, July phenology)"
+50,2020,561250.0,2355521.43,184,3,5,Paddy,4,Vegetation,0,evaluated,medium,optical_phenology_paddy,"needs_manual_review (summer paddy field, July phenology)"
+51,2020,571000.0,2356821.43,141,328,5,Paddy,5,Paddy,1,evaluated,medium,optical_phenology_paddy,"needs_manual_review (summer paddy field, July phenology)"
+52,2020,561900.0,2348371.43,422,25,5,Paddy,5,Paddy,1,evaluated,medium,optical_phenology_paddy,"needs_manual_review (summer paddy field, July phenology)"
+53,2020,569050.0,2353571.43,249,263,5,Paddy,5,Paddy,1,evaluated,medium,optical_phenology_paddy,"needs_manual_review (summer paddy field, July phenology)"
+54,2020,561900.0,2352271.43,292,25,5,Paddy,4,Vegetation,0,evaluated,medium,optical_phenology_paddy,"needs_manual_review (summer paddy field, July phenology)"
+55,2020,565150.0,2347721.43,444,133,5,Paddy,5,Paddy,1,evaluated,medium,optical_phenology_paddy,"needs_manual_review (summer paddy field, July phenology)"
+56,2020,571000.0,2350971.43,336,328,5,Paddy,5,Paddy,1,evaluated,medium,optical_phenology_paddy,"needs_manual_review (summer paddy field, July phenology)"
+57,2020,567750.0,2347071.43,466,220,5,Paddy,5,Paddy,1,evaluated,medium,optical_phenology_paddy,"needs_manual_review (summer paddy field, July phenology)"
+58,2020,563200.0,2350321.43,357,68,5,Paddy,5,Paddy,1,evaluated,medium,optical_phenology_paddy,"needs_manual_review (summer paddy field, July phenology)"
+59,2020,566450.0,2353571.43,249,176,,NULL,5,Paddy,0,excluded_null_reference,low,,needs_manual_review (ambiguous spectral signature)
+60,2020,561900.0,2360721.43,11,25,,NULL,3,Industrial Land,0,excluded_null_reference,low,,needs_manual_review (ambiguous spectral signature)
+61,2020,561250.0,2347721.43,444,3,,NULL,4,Vegetation,0,excluded_null_reference,low,,needs_manual_review (ambiguous spectral signature)
+62,2020,570350.0,2347071.43,466,306,,NULL,1,Residential Land,0,excluded_null_reference,low,,needs_manual_review (ambiguous spectral signature)
+63,2020,571000.0,2359421.43,54,328,,NULL,1,Residential Land,0,excluded_null_reference,low,,needs_manual_review (ambiguous spectral signature)
+64,2020,561900.0,2355521.43,184,25,,NULL,3,Industrial Land,0,excluded_null_reference,low,,needs_manual_review (ambiguous spectral signature)
+65,2020,565800.0,2349021.43,401,155,,NULL,3,Industrial Land,0,excluded_null_reference,low,,needs_manual_review (ambiguous spectral signature)
+66,2020,571000.0,2351621.43,314,328,,NULL,1,Residential Land,0,excluded_null_reference,low,,needs_manual_review (ambiguous spectral signature)
+67,2020,566450.0,2360721.43,11,176,,NULL,1,Residential Land,0,excluded_null_reference,low,,needs_manual_review (ambiguous spectral signature)
