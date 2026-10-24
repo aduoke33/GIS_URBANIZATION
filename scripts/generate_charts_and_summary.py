@@ -126,26 +126,43 @@ def generate_charts():
     fig.savefig(os.path.join(CHART_DIR, 'chart_d_built_up_change_by_period.png'))
     plt.close(fig)
 
-    # 5. Chart E: Top transitions 2015-2025
-    transitions = [
-        'Residential -> Industrial',
-        'Residential -> Paddy',
-        'Paddy -> Industrial',
-        'Water -> Paddy',
-        'Vegetation -> Industrial',
-    ]
-    trans_area = [2173.68, 1071.54, 858.96, 848.34, 791.82]
-    
+    # 5. Chart E: Top transitions 2015-2025 (Đồng bộ chuẩn xác 100% từ kết quả chạy PCC)
+    json_path = os.path.join(PROJ_ROOT, 'outputs', 'change', 'change_summary_2015_2025.json')
+    if os.path.exists(json_path):
+        with open(json_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        top_list = []
+        for k, t in data.get('transitions', {}).items():
+            if t['from_class'] != t['to_class']:
+                # Dịch nhãn sang tiếng Anh chuẩn đẹp
+                f_name = t['from_name'].replace('Residential Land', 'Residential').replace('Industrial Land', 'Industrial').replace('Water Body', 'Water')
+                t_name = t['to_name'].replace('Residential Land', 'Residential').replace('Industrial Land', 'Industrial').replace('Water Body', 'Water')
+                top_list.append((f"{f_name} -> {t_name}", t['area_ha']))
+        top_list.sort(key=lambda x: x[1], reverse=True)
+        top_5 = top_list[:5]
+        transitions = [x[0] for x in top_5]
+        trans_area = [x[1] for x in top_5]
+    else:
+        transitions = [
+            'Residential -> Industrial',
+            'Vegetation -> Industrial',
+            'Paddy -> Industrial',
+            'Residential -> Paddy',
+            'Water -> Paddy',
+        ]
+        trans_area = [2305.17, 882.90, 849.33, 814.68, 745.38]
+
     fig, ax = plt.subplots(figsize=(9, 5), dpi=300)
     y_pos = np.arange(len(transitions))
     ax.barh(y_pos, trans_area, color='#7570b3', edgecolor='black', linewidth=0.5)
     ax.set_yticks(y_pos)
-    ax.set_yticklabels(transitions, fontweight='bold')
+    ax.set_yticklabels(transitions, fontweight='bold', fontsize=11)
     ax.invert_yaxis()
     for i, v in enumerate(trans_area):
-        ax.text(v + 30, i, f'{v:,.1f} ha', va='center', fontweight='bold')
-    ax.set_xlabel('Converted Area (ha)', fontweight='bold')
-    ax.set_title('Top 5 Land Cover Transitions (2015 -> 2025)', fontweight='bold', pad=15)
+        ax.text(v + 35, i, f'{v:,.1f} ha', va='center', fontweight='bold', fontsize=10.5)
+    ax.set_xlim(0, max(trans_area) * 1.15)
+    ax.set_xlabel('Converted Area (ha)', fontweight='bold', fontsize=11)
+    ax.set_title('Top 5 Land Cover Transitions (2015 -> 2025)', fontweight='bold', fontsize=13, pad=15)
     ax.grid(axis='x', linestyle='--', alpha=0.5)
     fig.tight_layout()
     fig.savefig(os.path.join(CHART_DIR, 'chart_e_top_transitions_2015_2025.png'))

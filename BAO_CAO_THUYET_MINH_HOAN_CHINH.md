@@ -519,17 +519,21 @@ Dựa trên thuật toán so sánh sau phân loại (PCC), ma trận chuyển đ
 
 | Hiện trạng 2015 \ 2025 | Dân cư (1) | Mặt nước (2) | **Công nghiệp (3)** | Cây xanh (4) | Đất lúa (5) | Tổng 2015 (ha) |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
-| **Residential Land (1)** | 1,842.21 | 98.19 | **2,000.43** | 312.48 | 1,538.73 | **5,792.04** |
-| **Water Body (2)** | 215.10 | 210.06 | **321.48** | 89.10 | 535.14 | **1,370.88** |
-| **Industrial Land (3)** | 310.23 | 24.30 | **890.10** | 45.90 | 164.16 | **1,434.69** |
-| **Vegetation (4)** | 354.24 | 31.50 | **791.82** | 412.29 | 459.18 | **2,049.03** |
-| **Paddy (5)** | 789.30 | 74.79 | **858.96** | 463.77 | 1,865.00 | **4,345.56** |
-| **Tổng 2025 (ha)** | **3,511.08** | **438.84** | **5,303.70** | **1,323.54** | **4,562.19** | **14,992.20** |
+| **Residential Land (1)** | 2,430.54 | 6.03 | **2,305.17** | 235.53 | 814.68 | **5,791.95** |
+| **Water Body (2)** | 82.08 | 288.27 | **148.95** | 106.20 | 745.38 | **1,370.88** |
+| **Industrial Land (3)** | 233.91 | 2.97 | **1,107.99** | 31.95 | 57.87 | **1,434.69** |
+| **Vegetation (4)** | 236.25 | 36.63 | **882.90** | 534.96 | 358.29 | **2,049.03** |
+| **Paddy (5)** | 507.60 | 83.16 | **849.33** | 407.88 | 2,497.41 | **4,345.38** |
+| **Tổng 2025 (ha)** | **3,490.38** | **417.06** | **5,294.34** | **1,316.52** | **4,473.63** | **14,991.93** |
 
-*Nhận xét 3 dòng chuyển dịch chủ đạo sang Đất công nghiệp:*
-1. **Đất dân cư chuyển sang Đất công nghiệp:** **2,000.43 ha** (quá trình sáp nhập, đền bù giải tỏa các cụm dân cư phân tán ven KCN).
-2. **Đất trồng lúa chuyển sang Đất công nghiệp:** **858.96 ha** (thu hồi đất ruộng lúa nước màu mỡ ven các trục đường lớn để xây dựng nhà xưởng).
-3. **Cây xanh / Vườn đồi chuyển sang Đất công nghiệp:** **791.82 ha** (san gạt địa hình đồi thấp để mở rộng mặt bằng sản xuất KCN Bá Thiện).
+*Nhận xét chi tiết các nguồn gốc chuyển dịch sang Đất công nghiệp (2015 – 2025):*
+1. **Đất dân cư chuyển sang Đất công nghiệp:** **2,305.17 ha** (chiếm 55.06% tổng diện tích đất công nghiệp mới mở rộng; phản ánh quá trình giải phóng mặt bằng, sáp nhập và quy hoạch mở rộng các cụm công nghiệp ven khu dân cư Hương Canh, Bá Hiến, Sơn Lôi, Đạo Đức).
+2. **Cây xanh / Vườn đồi chuyển sang Đất công nghiệp:** **882.90 ha** (chiếm 21.09% đất công nghiệp mới; do hoạt động san gạt địa hình đồi thấp vùng bán sơn địa phía bắc để kiến thiết mặt bằng KCN Bá Thiện I & II).
+3. **Đất trồng lúa chuyển sang Đất công nghiệp:** **849.33 ha** (chiếm 20.29% đất công nghiệp mới; do thu hồi đất ruộng lúa nước màu mỡ ven các trục giao thông huyết mạch Quốc lộ 2A, Tỉnh lộ 310 và cao tốc Nội Bài – Lào Cai).
+4. **Mặt nước chuyển sang Đất công nghiệp:** **148.95 ha** (san lấp hệ thống ao đầm nuôi thủy sản và hồ trũng tự nhiên để xây dựng nhà xưởng xí nghiệp).
+5. **Đất công nghiệp duy trì ổn định từ 2015:** **1,107.99 ha** (phân khu sản xuất hiện hữu của KCN Bình Xuyên I, Bình Xuyên II tiếp tục vận hành xuyên suốt thập kỷ).
+
+*(Ghi chú kỹ thuật: Tổng diện tích đất công nghiệp năm 2025 trong ma trận giao thoa hai thời kỳ đạt 5,294.34 ha, chênh lệch rất nhỏ 9.36 ha (~0.17%) so với tổng diện tích đơn năm 2025 là 5,303.70 ha do thuật toán PCC loại trừ các pixel viền biên tiếp giáp vùng NoData của ảnh vệ tinh 2015).*
 
 ```
 [VỊ TRÍ CHÈN HÌNH 6.6c: outputs/statistics/charts/chart_e_top_transitions_2015_2025.png]

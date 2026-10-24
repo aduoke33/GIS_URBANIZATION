@@ -873,3 +873,4 @@ def build_standardized_docx():
 
 if __name__ == '__main__':
     build_standardized_docx()
+
