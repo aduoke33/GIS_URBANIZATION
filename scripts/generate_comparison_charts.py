@@ -217,3 +217,4 @@ plt.close()
 print(f'  [5/5] Saved: {p5}')
 
 print('\nAll 5 comparison charts generated successfully in 300 DPI!')
+

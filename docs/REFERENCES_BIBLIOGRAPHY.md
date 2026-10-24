@@ -70,3 +70,4 @@
 
 25. **Zha, Y., Gao, J., & Ni, S. (2003).** "Use of normalized difference built-up index in automatically mapping urban areas from TM imagery." *International Journal of Remote Sensing*, 24(3), 583–594. DOI: `10.1080/01431160304987`.
     *(Công trình đề xuất chỉ số đất xây dựng NDBI).*
+

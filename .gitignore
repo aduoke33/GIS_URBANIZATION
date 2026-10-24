@@ -31,3 +31,6 @@ temp/
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Office temp files
+~$*

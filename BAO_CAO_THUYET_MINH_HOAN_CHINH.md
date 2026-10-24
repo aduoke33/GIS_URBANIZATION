@@ -421,6 +421,26 @@ Dưới đây là kết quả thực nghiệm khách quan từ pipeline `run_mul
 | **#3** | **Maximum Likelihood (MLC)** | **63.37%** | **0.5415** | **63.24%** | 🥈 Chuẩn mực kinh điển, hạn chế bởi giả định chuẩn |
 | **#4** | **Random Forest (RF)** | **61.76%** | **0.5224** | **61.37%** | 🏆 **Tối ưu nhất toàn diện cho bản đồ không gian** |
 
+```
+[VỊ TRÍ CHÈN HÌNH 5.1: outputs/comparison/charts/chart_oa_comparison.png]
+*Hình 5.1: Biểu đồ cột nhóm so sánh Overall Accuracy giữa 4 thuật toán phân loại qua 3 mốc thời gian.*
+```
+
+```
+[VỊ TRÍ CHÈN HÌNH 5.2: outputs/comparison/charts/chart_kappa_comparison.png]
+*Hình 5.2: Biểu đồ so sánh hệ số đồng thuận Cohen's Kappa giữa 4 thuật toán phân loại (2015, 2020, 2025).*
+```
+
+```
+[VỊ TRÍ CHÈN HÌNH 5.3: outputs/comparison/charts/chart_f1_comparison.png]
+*Hình 5.3: Biểu đồ so sánh chỉ số Macro F1-Score giữa 4 thuật toán phân loại.*
+```
+
+```
+[VỊ TRÍ CHÈN HÌNH 5.4: outputs/comparison/charts/chart_radar_per_class.png]
+*Hình 5.4: Biểu đồ mạng nhện (Radar Chart) so sánh F1-Score từng lớp phủ đất qua 3 năm giữa 4 thuật toán.*
+```
+
 ## 5.2. Đánh giá chuyên sâu độ chính xác của lớp Mặt nước (Water Body)
 Theo yêu cầu trọng tâm của giảng viên (*"Độ chính xác của 1 số lớp (nước)"*):
 * **Kết quả lượng hóa:** Lớp Mặt nước đạt độ chính xác cao nhất trong tất cả các lớp trên cả 4 thuật toán. Đối với Random Forest, F1-Score đạt từ **80.0% đến 91.7%**, User's Accuracy (Precision) đạt **75.0% đến 100.0%**, Producer's Accuracy (Recall) đạt từ **66.7% đến 100.0%**.
@@ -441,6 +461,11 @@ Theo yêu cầu trọng tâm của giảng viên (*"Độ chính xác của 1 s�
 * **Naive Bayes và Minimum Distance:** Tốc độ tính toán siêu tốc ($<0.001\text{s}$ huấn luyện), dự đoán toàn bộ lưới 168,000 pixel trong $0.15\text{s}$.
 * **Maximum Likelihood:** Huấn luyện rất nhanh ($<0.03\text{s}$), tính toán nghịch đảo ma trận $13 \times 13$ nhẹ nhàng.
 * **Random Forest:** Thời gian huấn luyện lâu hơn ($~2.45\text{s}$ cho 300 cây quyết định), nhưng hoàn toàn mượt mà và tối ưu hóa xử lý song song đa lõi (`n_jobs=-1`).
+
+```
+[VỊ TRÍ CHÈN HÌNH 5.5: outputs/comparison/charts/chart_training_time.png]
+*Hình 5.5: So sánh thời gian huấn luyện mô hình giữa 4 thuật toán phân loại.*
+```
 
 ## 5.5. Luận giải khoa học: Tại sao Random Forest là lựa chọn tối ưu cho bản đồ biến động?
 Hội đồng chấm thi thường đặt câu hỏi: *"Tại sao trên mẫu điểm FPS, MDC và NB có OA cao hơn nhưng đề tài lại chọn Random Forest để thành lập bản đồ biến động?"*
@@ -469,6 +494,11 @@ Bạn khẳng định 3 luận điểm khoa học vững chắc:
 
 *(Ghi chú kỹ thuật: Tổng diện tích hợp lệ năm 2020 thấp hơn do ảnh hưởng của 7.56% mây mùa mưa đã được gán nhãn NoData để loại trừ sai số).*
 
+```
+[VỊ TRÍ CHÈN HÌNH 6.6a: outputs/statistics/charts/chart_a_land_cover_area_by_year.png]
+*Hình 6.6a: Biểu đồ biến động diện tích 5 lớp phủ đất giai đoạn 2015 – 2025 tại huyện Bình Xuyên.*
+```
+
 ## 6.2. Động thái bùng nổ diện tích đất công nghiệp (2015 – 2025)
 * **Quy mô tăng trưởng thần tốc:**
   - **Năm 2015:** Đất công nghiệp chỉ chiếm **1,434.69 ha (9.57%)** diện tích tự nhiên, tập trung chủ yếu ở một số cụm công nghiệp sơ khởi ven Quốc lộ 2.
@@ -476,6 +506,11 @@ Bạn khẳng định 3 luận điểm khoa học vững chắc:
   - **Năm 2025:** Diện tích đất công nghiệp bứt phá ngoạn mục lên **5,303.70 ha (chiếm 35.03% diện tích toàn vùng)**.
 * **Đánh giá tổng quát 10 năm:** Chỉ trong một thập kỷ, diện tích đất công nghiệp tại Bình Xuyên đã **tăng gấp 3.7 lần (+269.7%, tăng thêm +3,869.01 ha)**, chính thức vượt qua đất nông nghiệp và đất dân cư để trở thành loại hình sử dụng đất chiếm tỷ trọng lớn nhất trên địa bàn huyện.
 * **Tổng diện tích đất xây dựng (Built-up = Dân cư + Công nghiệp):** Đạt **8,814.78 ha (chiếm 58.22% diện tích toàn huyện)** vào năm 2025, phản ánh diện mạo một đô thị công nghiệp hiện đại hóa toàn diện.
+
+```
+[VỊ TRÍ CHÈN HÌNH 6.6b: outputs/statistics/charts/chart_b_built_up_area_by_year.png]
+*Hình 6.6b: Biểu đồ tăng trưởng đất xây dựng và bùng nổ đất công nghiệp Bình Xuyên (2015 – 2025).*
+```
 
 ## 6.3. Ma trận chuyển dịch đất đai (Transition Matrix 2015 $\to$ 2025)
 Dựa trên thuật toán so sánh sau phân loại (PCC), ma trận chuyển đổi bóc tách nguồn gốc đất chuyển thành đất công nghiệp:
@@ -496,6 +531,11 @@ Dựa trên thuật toán so sánh sau phân loại (PCC), ma trận chuyển đ
 2. **Đất trồng lúa chuyển sang Đất công nghiệp:** **858.96 ha** (thu hồi đất ruộng lúa nước màu mỡ ven các trục đường lớn để xây dựng nhà xưởng).
 3. **Cây xanh / Vườn đồi chuyển sang Đất công nghiệp:** **791.82 ha** (san gạt địa hình đồi thấp để mở rộng mặt bằng sản xuất KCN Bá Thiện).
 
+```
+[VỊ TRÍ CHÈN HÌNH 6.6c: outputs/statistics/charts/chart_e_top_transitions_2015_2025.png]
+*Hình 6.6c: Biểu đồ top các dòng chuyển dịch đất đai lớn nhất 10 năm (2015 – 2025) sang đất công nghiệp tại huyện Bình Xuyên.*
+```
+
 ## 6.4. So sánh và kiểm chứng thực địa với ảnh Google Earth
 Theo đúng yêu cầu của đề cương (*"So sánh với ảnh google earth"*):
 * **Phương pháp thực hiện trên QGIS:** Sử dụng plugin `QuickMapServices`, nạp lớp ảnh vệ tinh độ phân giải cực cao **Google Satellite** làm lớp nền đối chiếu bên dưới lớp phân loại `outputs/classification/classification_2025.tif`.
@@ -506,11 +546,31 @@ Theo đúng yêu cầu của đề cương (*"So sánh với ảnh google earth"
 
 ## 6.5. Hệ thống bản đồ chuyên đề thành lập
 Đề tài đã hoàn thành xuất bản bộ bản đồ chuyên đề chất lượng cao (300 DPI, chuẩn in ấn A4/A3) lưu tại thư mục `maps/`:
-1. `map_landcover_2015.png`: Bản đồ hiện trạng thảm phủ đất năm 2015.
-2. `map_landcover_2020.png`: Bản đồ hiện trạng thảm phủ đất năm 2020.
-3. `map_landcover_2025.png`: Bản đồ hiện trạng thảm phủ đất năm 2025.
-4. `map_landcover_comparison_3years.png`: Bản đồ tổng hợp so sánh trực quan thảm phủ 3 mốc thời gian.
-5. `map_urban_expansion_2015_2025.png`: Bản đồ không gian bùng nổ đất xây dựng và mở rộng công nghiệp 10 năm.
+
+```
+[VỊ TRÍ CHÈN HÌNH 6.1: maps/map_landcover_2015.png]
+*Hình 6.1: Bản đồ hiện trạng thảm phủ đất năm 2015 (Landsat 8 - 30m).*
+```
+
+```
+[VỊ TRÍ CHÈN HÌNH 6.2: maps/map_landcover_2020.png]
+*Hình 6.2: Bản đồ hiện trạng thảm phủ đất năm 2020 (Landsat 8 - 30m).*
+```
+
+```
+[VỊ TRÍ CHÈN HÌNH 6.3: maps/map_landcover_2025.png]
+*Hình 6.3: Bản đồ hiện trạng thảm phủ đất năm 2025 (Landsat 9 - 30m).*
+```
+
+```
+[VỊ TRÍ CHÈN HÌNH 6.4: maps/map_landcover_comparison_3years.png]
+*Hình 6.4: Bản đồ tổng hợp so sánh trực quan thảm phủ đất 3 mốc thời gian (2015, 2020, 2025).*
+```
+
+```
+[VỊ TRÍ CHÈN HÌNH 6.5: maps/map_urban_expansion_2015_2025.png]
+*Hình 6.5: Bản đồ không gian bùng nổ đất công nghiệp và mở rộng đô thị 10 năm (2015 – 2025).*
+```
 
 ---
 
@@ -607,3 +667,4 @@ py -3 scripts/generate_maps.py
 py -3 scripts/generate_comparison_charts.py
 py -3 scripts/generate_study_area_map.py
 ```
+
