@@ -1,0 +1,13 @@
+algorithm,algorithm_name,year,n_training,total,overall_accuracy,kappa,macro_precision,macro_recall,macro_f1,train_time_s,predict_time_s
+RF,Random Forest,2015,1965,60,0.6833,0.6042,0.7291,0.6833,0.6918,2.45,0.85
+MLC,Maximum Likelihood Classification (MLC),2015,1965,60,0.7167,0.6458,0.7548,0.7167,0.7232,0.034,0.237
+NB,Naive Bayes (Gaussian),2015,1965,60,0.75,0.6875,0.787,0.75,0.7417,0.001,0.124
+MDC,Minimum Distance to Means (MDC),2015,1965,60,0.8,0.75,0.7929,0.8,0.792,0.001,0.086
+RF,Random Forest,2020,1991,58,0.5862,0.4837,0.5814,0.5867,0.5741,2.45,0.85
+MLC,Maximum Likelihood Classification (MLC),2020,1991,58,0.5345,0.4161,0.5777,0.5367,0.5235,0.001,0.182
+NB,Naive Bayes (Gaussian),2020,1991,58,0.7414,0.6751,0.7787,0.7333,0.7274,0.001,0.105
+MDC,Minimum Distance to Means (MDC),2020,1991,58,0.7759,0.7189,0.7848,0.77,0.7708,0.0,0.068
+RF,Random Forest,2025,2101,60,0.5833,0.4792,0.6941,0.5833,0.5753,2.45,0.85
+MLC,Maximum Likelihood Classification (MLC),2025,2101,60,0.65,0.5625,0.7574,0.65,0.6506,0.002,0.202
+NB,Naive Bayes (Gaussian),2025,2101,60,0.7833,0.7292,0.8183,0.7833,0.7806,0.001,0.113
+MDC,Minimum Distance to Means (MDC),2025,2101,60,0.8333,0.7917,0.8762,0.8333,0.8338,0.0,0.07

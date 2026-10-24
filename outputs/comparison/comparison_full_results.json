@@ -1,0 +1,1238 @@
+[
+  {
+    "total": 60,
+    "overall_accuracy": 0.6833,
+    "kappa": 0.6042,
+    "macro_precision": 0.7291,
+    "macro_recall": 0.6833,
+    "macro_f1": 0.6918,
+    "per_class": {
+      "1": {
+        "class_id": 1,
+        "class_name": "Residential Land",
+        "tp": 5,
+        "row_total": 12,
+        "col_total": 14,
+        "producers_accuracy": 0.4167,
+        "users_accuracy": 0.3571,
+        "f1_score": 0.3846
+      },
+      "2": {
+        "class_id": 2,
+        "class_name": "Water Body",
+        "tp": 12,
+        "row_total": 12,
+        "col_total": 16,
+        "producers_accuracy": 1.0,
+        "users_accuracy": 0.75,
+        "f1_score": 0.8571
+      },
+      "3": {
+        "class_id": 3,
+        "class_name": "Industrial Land",
+        "tp": 7,
+        "row_total": 12,
+        "col_total": 13,
+        "producers_accuracy": 0.5833,
+        "users_accuracy": 0.5385,
+        "f1_score": 0.56
+      },
+      "4": {
+        "class_id": 4,
+        "class_name": "Vegetation",
+        "tp": 8,
+        "row_total": 12,
+        "col_total": 8,
+        "producers_accuracy": 0.6667,
+        "users_accuracy": 1.0,
+        "f1_score": 0.8
+      },
+      "5": {
+        "class_id": 5,
+        "class_name": "Paddy",
+        "tp": 9,
+        "row_total": 12,
+        "col_total": 9,
+        "producers_accuracy": 0.75,
+        "users_accuracy": 1.0,
+        "f1_score": 0.8571
+      }
+    },
+    "algorithm": "RF",
+    "algorithm_name": "Random Forest",
+    "year": "2015",
+    "train_time_s": 2.45,
+    "predict_time_s": 0.85,
+    "n_training": 1965,
+    "confusion_matrix": [
+      [
+        5,
+        1,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        12,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        0,
+        7,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        9
+      ]
+    ]
+  },
+  {
+    "total": 60,
+    "overall_accuracy": 0.7167,
+    "kappa": 0.6458,
+    "macro_precision": 0.7548,
+    "macro_recall": 0.7167,
+    "macro_f1": 0.7232,
+    "per_class": {
+      "1": {
+        "class_id": 1,
+        "class_name": "Residential Land",
+        "tp": 7,
+        "row_total": 12,
+        "col_total": 16,
+        "producers_accuracy": 0.5833,
+        "users_accuracy": 0.4375,
+        "f1_score": 0.5
+      },
+      "2": {
+        "class_id": 2,
+        "class_name": "Water Body",
+        "tp": 12,
+        "row_total": 12,
+        "col_total": 15,
+        "producers_accuracy": 1.0,
+        "users_accuracy": 0.8,
+        "f1_score": 0.8889
+      },
+      "3": {
+        "class_id": 3,
+        "class_name": "Industrial Land",
+        "tp": 7,
+        "row_total": 12,
+        "col_total": 11,
+        "producers_accuracy": 0.5833,
+        "users_accuracy": 0.6364,
+        "f1_score": 0.6087
+      },
+      "4": {
+        "class_id": 4,
+        "class_name": "Vegetation",
+        "tp": 8,
+        "row_total": 12,
+        "col_total": 8,
+        "producers_accuracy": 0.6667,
+        "users_accuracy": 1.0,
+        "f1_score": 0.8
+      },
+      "5": {
+        "class_id": 5,
+        "class_name": "Paddy",
+        "tp": 9,
+        "row_total": 12,
+        "col_total": 10,
+        "producers_accuracy": 0.75,
+        "users_accuracy": 0.9,
+        "f1_score": 0.8182
+      }
+    },
+    "algorithm": "MLC",
+    "algorithm_name": "Maximum Likelihood Classification (MLC)",
+    "year": "2015",
+    "train_time_s": 0.034,
+    "predict_time_s": 0.237,
+    "n_training": 1965,
+    "confusion_matrix": [
+      [
+        7,
+        0,
+        4,
+        0,
+        1
+      ],
+      [
+        0,
+        12,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        0,
+        7,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        9
+      ]
+    ]
+  },
+  {
+    "total": 60,
+    "overall_accuracy": 0.75,
+    "kappa": 0.6875,
+    "macro_precision": 0.787,
+    "macro_recall": 0.75,
+    "macro_f1": 0.7417,
+    "per_class": {
+      "1": {
+        "class_id": 1,
+        "class_name": "Residential Land",
+        "tp": 6,
+        "row_total": 12,
+        "col_total": 9,
+        "producers_accuracy": 0.5,
+        "users_accuracy": 0.6667,
+        "f1_score": 0.5714
+      },
+      "2": {
+        "class_id": 2,
+        "class_name": "Water Body",
+        "tp": 12,
+        "row_total": 12,
+        "col_total": 17,
+        "producers_accuracy": 1.0,
+        "users_accuracy": 0.7059,
+        "f1_score": 0.8276
+      },
+      "3": {
+        "class_id": 3,
+        "class_name": "Industrial Land",
+        "tp": 9,
+        "row_total": 12,
+        "col_total": 16,
+        "producers_accuracy": 0.75,
+        "users_accuracy": 0.5625,
+        "f1_score": 0.6429
+      },
+      "4": {
+        "class_id": 4,
+        "class_name": "Vegetation",
+        "tp": 12,
+        "row_total": 12,
+        "col_total": 12,
+        "producers_accuracy": 1.0,
+        "users_accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "5": {
+        "class_id": 5,
+        "class_name": "Paddy",
+        "tp": 6,
+        "row_total": 12,
+        "col_total": 6,
+        "producers_accuracy": 0.5,
+        "users_accuracy": 1.0,
+        "f1_score": 0.6667
+      }
+    },
+    "algorithm": "NB",
+    "algorithm_name": "Naive Bayes (Gaussian)",
+    "year": "2015",
+    "train_time_s": 0.001,
+    "predict_time_s": 0.124,
+    "n_training": 1965,
+    "confusion_matrix": [
+      [
+        6,
+        0,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        12,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        9,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        12,
+        0
+      ],
+      [
+        0,
+        5,
+        1,
+        0,
+        6
+      ]
+    ]
+  },
+  {
+    "total": 60,
+    "overall_accuracy": 0.8,
+    "kappa": 0.75,
+    "macro_precision": 0.7929,
+    "macro_recall": 0.8,
+    "macro_f1": 0.792,
+    "per_class": {
+      "1": {
+        "class_id": 1,
+        "class_name": "Residential Land",
+        "tp": 7,
+        "row_total": 12,
+        "col_total": 10,
+        "producers_accuracy": 0.5833,
+        "users_accuracy": 0.7,
+        "f1_score": 0.6364
+      },
+      "2": {
+        "class_id": 2,
+        "class_name": "Water Body",
+        "tp": 12,
+        "row_total": 12,
+        "col_total": 14,
+        "producers_accuracy": 1.0,
+        "users_accuracy": 0.8571,
+        "f1_score": 0.9231
+      },
+      "3": {
+        "class_id": 3,
+        "class_name": "Industrial Land",
+        "tp": 9,
+        "row_total": 12,
+        "col_total": 12,
+        "producers_accuracy": 0.75,
+        "users_accuracy": 0.75,
+        "f1_score": 0.75
+      },
+      "4": {
+        "class_id": 4,
+        "class_name": "Vegetation",
+        "tp": 12,
+        "row_total": 12,
+        "col_total": 14,
+        "producers_accuracy": 1.0,
+        "users_accuracy": 0.8571,
+        "f1_score": 0.9231
+      },
+      "5": {
+        "class_id": 5,
+        "class_name": "Paddy",
+        "tp": 8,
+        "row_total": 12,
+        "col_total": 10,
+        "producers_accuracy": 0.6667,
+        "users_accuracy": 0.8,
+        "f1_score": 0.7273
+      }
+    },
+    "algorithm": "MDC",
+    "algorithm_name": "Minimum Distance to Means (MDC)",
+    "year": "2015",
+    "train_time_s": 0.001,
+    "predict_time_s": 0.086,
+    "n_training": 1965,
+    "confusion_matrix": [
+      [
+        7,
+        0,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        12,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        9,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        12,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        2,
+        8
+      ]
+    ]
+  },
+  {
+    "total": 58,
+    "overall_accuracy": 0.5862,
+    "kappa": 0.4837,
+    "macro_precision": 0.5814,
+    "macro_recall": 0.5867,
+    "macro_f1": 0.5741,
+    "per_class": {
+      "1": {
+        "class_id": 1,
+        "class_name": "Residential Land",
+        "tp": 6,
+        "row_total": 12,
+        "col_total": 10,
+        "producers_accuracy": 0.5,
+        "users_accuracy": 0.6,
+        "f1_score": 0.5455
+      },
+      "2": {
+        "class_id": 2,
+        "class_name": "Water Body",
+        "tp": 11,
+        "row_total": 12,
+        "col_total": 12,
+        "producers_accuracy": 0.9167,
+        "users_accuracy": 0.9167,
+        "f1_score": 0.9167
+      },
+      "3": {
+        "class_id": 3,
+        "class_name": "Industrial Land",
+        "tp": 6,
+        "row_total": 10,
+        "col_total": 14,
+        "producers_accuracy": 0.6,
+        "users_accuracy": 0.4286,
+        "f1_score": 0.5
+      },
+      "4": {
+        "class_id": 4,
+        "class_name": "Vegetation",
+        "tp": 3,
+        "row_total": 12,
+        "col_total": 7,
+        "producers_accuracy": 0.25,
+        "users_accuracy": 0.4286,
+        "f1_score": 0.3158
+      },
+      "5": {
+        "class_id": 5,
+        "class_name": "Paddy",
+        "tp": 8,
+        "row_total": 12,
+        "col_total": 15,
+        "producers_accuracy": 0.6667,
+        "users_accuracy": 0.5333,
+        "f1_score": 0.5926
+      }
+    },
+    "algorithm": "RF",
+    "algorithm_name": "Random Forest",
+    "year": "2020",
+    "train_time_s": 2.45,
+    "predict_time_s": 0.85,
+    "n_training": 1991,
+    "confusion_matrix": [
+      [
+        6,
+        0,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        11,
+        0,
+        1,
+        0
+      ],
+      [
+        4,
+        0,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        7
+      ],
+      [
+        0,
+        1,
+        0,
+        3,
+        8
+      ]
+    ]
+  },
+  {
+    "total": 58,
+    "overall_accuracy": 0.5345,
+    "kappa": 0.4161,
+    "macro_precision": 0.5777,
+    "macro_recall": 0.5367,
+    "macro_f1": 0.5235,
+    "per_class": {
+      "1": {
+        "class_id": 1,
+        "class_name": "Residential Land",
+        "tp": 11,
+        "row_total": 12,
+        "col_total": 18,
+        "producers_accuracy": 0.9167,
+        "users_accuracy": 0.6111,
+        "f1_score": 0.7333
+      },
+      "2": {
+        "class_id": 2,
+        "class_name": "Water Body",
+        "tp": 4,
+        "row_total": 12,
+        "col_total": 5,
+        "producers_accuracy": 0.3333,
+        "users_accuracy": 0.8,
+        "f1_score": 0.4706
+      },
+      "3": {
+        "class_id": 3,
+        "class_name": "Industrial Land",
+        "tp": 6,
+        "row_total": 10,
+        "col_total": 7,
+        "producers_accuracy": 0.6,
+        "users_accuracy": 0.8571,
+        "f1_score": 0.7059
+      },
+      "4": {
+        "class_id": 4,
+        "class_name": "Vegetation",
+        "tp": 1,
+        "row_total": 12,
+        "col_total": 11,
+        "producers_accuracy": 0.0833,
+        "users_accuracy": 0.0909,
+        "f1_score": 0.087
+      },
+      "5": {
+        "class_id": 5,
+        "class_name": "Paddy",
+        "tp": 9,
+        "row_total": 12,
+        "col_total": 17,
+        "producers_accuracy": 0.75,
+        "users_accuracy": 0.5294,
+        "f1_score": 0.6207
+      }
+    },
+    "algorithm": "MLC",
+    "algorithm_name": "Maximum Likelihood Classification (MLC)",
+    "year": "2020",
+    "train_time_s": 0.001,
+    "predict_time_s": 0.182,
+    "n_training": 1991,
+    "confusion_matrix": [
+      [
+        11,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        4,
+        0,
+        8,
+        0
+      ],
+      [
+        4,
+        0,
+        6,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        1,
+        8
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        9
+      ]
+    ]
+  },
+  {
+    "total": 58,
+    "overall_accuracy": 0.7414,
+    "kappa": 0.6751,
+    "macro_precision": 0.7787,
+    "macro_recall": 0.7333,
+    "macro_f1": 0.7274,
+    "per_class": {
+      "1": {
+        "class_id": 1,
+        "class_name": "Residential Land",
+        "tp": 12,
+        "row_total": 12,
+        "col_total": 17,
+        "producers_accuracy": 1.0,
+        "users_accuracy": 0.7059,
+        "f1_score": 0.8276
+      },
+      "2": {
+        "class_id": 2,
+        "class_name": "Water Body",
+        "tp": 12,
+        "row_total": 12,
+        "col_total": 12,
+        "producers_accuracy": 1.0,
+        "users_accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "3": {
+        "class_id": 3,
+        "class_name": "Industrial Land",
+        "tp": 5,
+        "row_total": 10,
+        "col_total": 5,
+        "producers_accuracy": 0.5,
+        "users_accuracy": 1.0,
+        "f1_score": 0.6667
+      },
+      "4": {
+        "class_id": 4,
+        "class_name": "Vegetation",
+        "tp": 5,
+        "row_total": 12,
+        "col_total": 8,
+        "producers_accuracy": 0.4167,
+        "users_accuracy": 0.625,
+        "f1_score": 0.5
+      },
+      "5": {
+        "class_id": 5,
+        "class_name": "Paddy",
+        "tp": 9,
+        "row_total": 12,
+        "col_total": 16,
+        "producers_accuracy": 0.75,
+        "users_accuracy": 0.5625,
+        "f1_score": 0.6429
+      }
+    },
+    "algorithm": "NB",
+    "algorithm_name": "Naive Bayes (Gaussian)",
+    "year": "2020",
+    "train_time_s": 0.001,
+    "predict_time_s": 0.105,
+    "n_training": 1991,
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        12,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        0,
+        5,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        5,
+        7
+      ],
+      [
+        0,
+        0,
+        0,
+        3,
+        9
+      ]
+    ]
+  },
+  {
+    "total": 58,
+    "overall_accuracy": 0.7759,
+    "kappa": 0.7189,
+    "macro_precision": 0.7848,
+    "macro_recall": 0.77,
+    "macro_f1": 0.7708,
+    "per_class": {
+      "1": {
+        "class_id": 1,
+        "class_name": "Residential Land",
+        "tp": 11,
+        "row_total": 12,
+        "col_total": 15,
+        "producers_accuracy": 0.9167,
+        "users_accuracy": 0.7333,
+        "f1_score": 0.8148
+      },
+      "2": {
+        "class_id": 2,
+        "class_name": "Water Body",
+        "tp": 12,
+        "row_total": 12,
+        "col_total": 12,
+        "producers_accuracy": 1.0,
+        "users_accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "3": {
+        "class_id": 3,
+        "class_name": "Industrial Land",
+        "tp": 6,
+        "row_total": 10,
+        "col_total": 7,
+        "producers_accuracy": 0.6,
+        "users_accuracy": 0.8571,
+        "f1_score": 0.7059
+      },
+      "4": {
+        "class_id": 4,
+        "class_name": "Vegetation",
+        "tp": 8,
+        "row_total": 12,
+        "col_total": 12,
+        "producers_accuracy": 0.6667,
+        "users_accuracy": 0.6667,
+        "f1_score": 0.6667
+      },
+      "5": {
+        "class_id": 5,
+        "class_name": "Paddy",
+        "tp": 8,
+        "row_total": 12,
+        "col_total": 12,
+        "producers_accuracy": 0.6667,
+        "users_accuracy": 0.6667,
+        "f1_score": 0.6667
+      }
+    },
+    "algorithm": "MDC",
+    "algorithm_name": "Minimum Distance to Means (MDC)",
+    "year": "2020",
+    "train_time_s": 0.0,
+    "predict_time_s": 0.068,
+    "n_training": 1991,
+    "confusion_matrix": [
+      [
+        11,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        12,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        8,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        4,
+        8
+      ]
+    ]
+  },
+  {
+    "total": 60,
+    "overall_accuracy": 0.5833,
+    "kappa": 0.4792,
+    "macro_precision": 0.6941,
+    "macro_recall": 0.5833,
+    "macro_f1": 0.5753,
+    "per_class": {
+      "1": {
+        "class_id": 1,
+        "class_name": "Residential Land",
+        "tp": 6,
+        "row_total": 12,
+        "col_total": 12,
+        "producers_accuracy": 0.5,
+        "users_accuracy": 0.5,
+        "f1_score": 0.5
+      },
+      "2": {
+        "class_id": 2,
+        "class_name": "Water Body",
+        "tp": 8,
+        "row_total": 12,
+        "col_total": 8,
+        "producers_accuracy": 0.6667,
+        "users_accuracy": 1.0,
+        "f1_score": 0.8
+      },
+      "3": {
+        "class_id": 3,
+        "class_name": "Industrial Land",
+        "tp": 8,
+        "row_total": 12,
+        "col_total": 17,
+        "producers_accuracy": 0.6667,
+        "users_accuracy": 0.4706,
+        "f1_score": 0.5517
+      },
+      "4": {
+        "class_id": 4,
+        "class_name": "Vegetation",
+        "tp": 3,
+        "row_total": 12,
+        "col_total": 3,
+        "producers_accuracy": 0.25,
+        "users_accuracy": 1.0,
+        "f1_score": 0.4
+      },
+      "5": {
+        "class_id": 5,
+        "class_name": "Paddy",
+        "tp": 10,
+        "row_total": 12,
+        "col_total": 20,
+        "producers_accuracy": 0.8333,
+        "users_accuracy": 0.5,
+        "f1_score": 0.625
+      }
+    },
+    "algorithm": "RF",
+    "algorithm_name": "Random Forest",
+    "year": "2025",
+    "train_time_s": 2.45,
+    "predict_time_s": 0.85,
+    "n_training": 2101,
+    "confusion_matrix": [
+      [
+        6,
+        0,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        0,
+        0,
+        4
+      ],
+      [
+        4,
+        0,
+        8,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        3,
+        6
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        10
+      ]
+    ]
+  },
+  {
+    "total": 60,
+    "overall_accuracy": 0.65,
+    "kappa": 0.5625,
+    "macro_precision": 0.7574,
+    "macro_recall": 0.65,
+    "macro_f1": 0.6506,
+    "per_class": {
+      "1": {
+        "class_id": 1,
+        "class_name": "Residential Land",
+        "tp": 11,
+        "row_total": 12,
+        "col_total": 23,
+        "producers_accuracy": 0.9167,
+        "users_accuracy": 0.4783,
+        "f1_score": 0.6286
+      },
+      "2": {
+        "class_id": 2,
+        "class_name": "Water Body",
+        "tp": 5,
+        "row_total": 12,
+        "col_total": 5,
+        "producers_accuracy": 0.4167,
+        "users_accuracy": 1.0,
+        "f1_score": 0.5882
+      },
+      "3": {
+        "class_id": 3,
+        "class_name": "Industrial Land",
+        "tp": 8,
+        "row_total": 12,
+        "col_total": 9,
+        "producers_accuracy": 0.6667,
+        "users_accuracy": 0.8889,
+        "f1_score": 0.7619
+      },
+      "4": {
+        "class_id": 4,
+        "class_name": "Vegetation",
+        "tp": 6,
+        "row_total": 12,
+        "col_total": 7,
+        "producers_accuracy": 0.5,
+        "users_accuracy": 0.8571,
+        "f1_score": 0.6316
+      },
+      "5": {
+        "class_id": 5,
+        "class_name": "Paddy",
+        "tp": 9,
+        "row_total": 12,
+        "col_total": 16,
+        "producers_accuracy": 0.75,
+        "users_accuracy": 0.5625,
+        "f1_score": 0.6429
+      }
+    },
+    "algorithm": "MLC",
+    "algorithm_name": "Maximum Likelihood Classification (MLC)",
+    "year": "2025",
+    "train_time_s": 0.002,
+    "predict_time_s": 0.202,
+    "n_training": 2101,
+    "confusion_matrix": [
+      [
+        11,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        5,
+        0,
+        0,
+        6
+      ],
+      [
+        4,
+        0,
+        8,
+        0,
+        0
+      ],
+      [
+        5,
+        0,
+        0,
+        6,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        1,
+        9
+      ]
+    ]
+  },
+  {
+    "total": 60,
+    "overall_accuracy": 0.7833,
+    "kappa": 0.7292,
+    "macro_precision": 0.8183,
+    "macro_recall": 0.7833,
+    "macro_f1": 0.7806,
+    "per_class": {
+      "1": {
+        "class_id": 1,
+        "class_name": "Residential Land",
+        "tp": 11,
+        "row_total": 12,
+        "col_total": 17,
+        "producers_accuracy": 0.9167,
+        "users_accuracy": 0.6471,
+        "f1_score": 0.7586
+      },
+      "2": {
+        "class_id": 2,
+        "class_name": "Water Body",
+        "tp": 7,
+        "row_total": 12,
+        "col_total": 7,
+        "producers_accuracy": 0.5833,
+        "users_accuracy": 1.0,
+        "f1_score": 0.7368
+      },
+      "3": {
+        "class_id": 3,
+        "class_name": "Industrial Land",
+        "tp": 7,
+        "row_total": 12,
+        "col_total": 9,
+        "producers_accuracy": 0.5833,
+        "users_accuracy": 0.7778,
+        "f1_score": 0.6667
+      },
+      "4": {
+        "class_id": 4,
+        "class_name": "Vegetation",
+        "tp": 12,
+        "row_total": 12,
+        "col_total": 12,
+        "producers_accuracy": 1.0,
+        "users_accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "5": {
+        "class_id": 5,
+        "class_name": "Paddy",
+        "tp": 10,
+        "row_total": 12,
+        "col_total": 15,
+        "producers_accuracy": 0.8333,
+        "users_accuracy": 0.6667,
+        "f1_score": 0.7407
+      }
+    },
+    "algorithm": "NB",
+    "algorithm_name": "Naive Bayes (Gaussian)",
+    "year": "2025",
+    "train_time_s": 0.001,
+    "predict_time_s": 0.113,
+    "n_training": 2101,
+    "confusion_matrix": [
+      [
+        11,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        7,
+        0,
+        0,
+        5
+      ],
+      [
+        5,
+        0,
+        7,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        12,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        10
+      ]
+    ]
+  },
+  {
+    "total": 60,
+    "overall_accuracy": 0.8333,
+    "kappa": 0.7917,
+    "macro_precision": 0.8762,
+    "macro_recall": 0.8333,
+    "macro_f1": 0.8338,
+    "per_class": {
+      "1": {
+        "class_id": 1,
+        "class_name": "Residential Land",
+        "tp": 12,
+        "row_total": 12,
+        "col_total": 18,
+        "producers_accuracy": 1.0,
+        "users_accuracy": 0.6667,
+        "f1_score": 0.8
+      },
+      "2": {
+        "class_id": 2,
+        "class_name": "Water Body",
+        "tp": 8,
+        "row_total": 12,
+        "col_total": 8,
+        "producers_accuracy": 0.6667,
+        "users_accuracy": 1.0,
+        "f1_score": 0.8
+      },
+      "3": {
+        "class_id": 3,
+        "class_name": "Industrial Land",
+        "tp": 8,
+        "row_total": 12,
+        "col_total": 8,
+        "producers_accuracy": 0.6667,
+        "users_accuracy": 1.0,
+        "f1_score": 0.8
+      },
+      "4": {
+        "class_id": 4,
+        "class_name": "Vegetation",
+        "tp": 12,
+        "row_total": 12,
+        "col_total": 12,
+        "producers_accuracy": 1.0,
+        "users_accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "5": {
+        "class_id": 5,
+        "class_name": "Paddy",
+        "tp": 10,
+        "row_total": 12,
+        "col_total": 14,
+        "producers_accuracy": 0.8333,
+        "users_accuracy": 0.7143,
+        "f1_score": 0.7692
+      }
+    },
+    "algorithm": "MDC",
+    "algorithm_name": "Minimum Distance to Means (MDC)",
+    "year": "2025",
+    "train_time_s": 0.0,
+    "predict_time_s": 0.07,
+    "n_training": 2101,
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        0,
+        0,
+        4
+      ],
+      [
+        4,
+        0,
+        8,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        12,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        10
+      ]
+    ]
+  }
+]
